@@ -1,33 +1,32 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
+title: Hybrid Apps
+subtitle: made in Switzerland
 email: info@pavingways.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: We help you develop, release and maintain your mobile app on iOS and Android - We are PavingWays.
+subdescription: With more than 15 years of experience, tons of apps and customers from small to huge we know what we are talking about.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: 
 street_address:
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+city: Meggen
+state: LU
+zip_code: 6045
+country: Switzerland
+phone: 076 831 58 37
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
+  GitHub: https://github.com/pavingways
   LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  Twitter: https://twitter.com/pavingways
+  Instagram:
   Facebook:
   Slack:
 

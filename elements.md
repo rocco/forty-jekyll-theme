@@ -2,6 +2,7 @@
 layout: page
 title: Elements
 image: assets/images/pic01.jpg
+description: Some info about Elements and why they are important 
 nav-menu: true
 ---
 

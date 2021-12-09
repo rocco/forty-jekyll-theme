@@ -86,13 +86,27 @@
 		</div>
 	</footer>
 
+	<!-- Menu -->
+	<nav id="menu">
+		<a class="close" href="#menu">Close</a>
+		<ul class="links">
+			{% for page in site.pages %}
+			{% if page.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+			{% for page in site.html_pages %}
+			{% if page.layout != "home" and page.nav-menu == true %}
+			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+<!--		<ul class="actions vertical">-->
+<!--			<li><a href="#" class="button special fit">Get Started</a></li>-->
+<!--			<li><a href="#" class="button fit">Log In</a></li>-->
+<!--		</ul>-->
+	</nav>
+
+<!-- Wrapper -->
 </div>
 
-<!-- Scripts -->
-	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
-	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>

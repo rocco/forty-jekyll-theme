@@ -36,24 +36,22 @@
 			position: relative;
 			width: 40%;
 
-			.image {
-				display: none;
-			}
-
 			header {
 				position: relative;
 				z-index: 3;
-			}
 
-			h3 {
-				font-size: 1.75em;
+				h3 {
+					font-size: 1.75em;
 
-				a {
-					&:hover {
-						color: inherit !important;
+					a {
+						&:hover {
+							color: inherit !important;
+						}
 					}
 				}
 			}
+
+
 
 			.link.primary {
 				border: 0;
